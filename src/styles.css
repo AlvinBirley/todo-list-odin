@@ -1,0 +1,93 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+#content {
+    width: 70vw;
+  
+}
+
+.heading-div {
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+}
+
+.button-div {
+    width: 70vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+  
+  .project-button  {
+    background: #5E5DF0;
+    border-radius: 999px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 1;
+  }
+  
+  .project-button  {
+      -webkit-box-shadow: inset 0px 0px 5px #5E5DF0;
+         -moz-box-shadow: inset 0px 0px 5px #5E5DF0;
+              box-shadow: inset 0px 0px 5px #5E5DF0;
+       outline: none;
+    }
+  
+
+    .task-button  {
+        background: #81f209;
+        border-radius: 999px;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        cursor: pointer;
+        font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        opacity: 1;
+        outline: 0 solid transparent;
+        padding: 8px 18px;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        width: fit-content;
+        word-break: break-word;
+        border: 1;
+      }
+      
+      .task-button  {
+          -webkit-box-shadow: inset 0px 0px 5px #81f209;
+             -moz-box-shadow: inset 0px 0px 5px #81f209;
+                  box-shadow: inset 0px 0px 5px #81f209;
+           outline: none;
+        }
+
+        .seperation-div {
+            width: 70vw;
+            background-color: rgb(169, 169, 169);
+            height: 10px;
+            border-radius: 10px;
+            border: solid 1px black;
+            margin-top: 10px;
+        }
+
+
