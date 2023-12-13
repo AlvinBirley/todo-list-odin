@@ -33,8 +33,9 @@ export function initialPageLoad(){
     const p = document.createElement("p");
     seperationDiv.appendChild(p);
     contentDiv.appendChild(seperationDiv);
-    
-    projectButton.addEventListener('click', projectBtnFnc);
+
+
+
 
 }
 
