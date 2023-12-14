@@ -1,4 +1,6 @@
 import {projectBtnFnc} from './project-button.js'
+import {taskBtnFnc} from './task-button.js'
+
 
 
 export function initialPageLoad(){
@@ -42,7 +44,18 @@ export function initialPageLoad(){
         document.querySelector(".bg-modal").style.display = 'none';
     });
 
+    taskButton.addEventListener("click", taskBtnFnc);
 
+    document.querySelector(".note-close").addEventListener("click", 
+    
+    function(){
+        document.querySelector(".note-modal").style.display = 'none';
+    });
 
+    const innerProjectDiv = document.createElement("div");
+    innerProjectDiv.classList.add("inner-project-div");
+    //const makeP = document.createElement("p");
+    //innerProjectDiv.appendChild(makeP);
+    contentDiv.appendChild(innerProjectDiv);
 }
 

@@ -8,18 +8,17 @@
 </head>
 <body>
     <div id="content"></div>
-    <div id="project-display"></div>
     <div class="bg-modal">
         <div class="modal-content">
             <div class="close">+</div>
             <h2>Create a project</h2>
             <form action="">
                 <label for="title">Title</label><br>
-                <input type="text" placeholder="title">
+                <input type="text" placeholder="title" required>
                 <label for="description">Description</label><br>
-                <input type="text" placeholder="description">
+                <input type="text" placeholder="description" required>
                 <label for="due-date">Due Date</label><br>
-                <input type="date" placeholder="due-date">
+                <input type="date" placeholder="due-date" required>
                 <label for="priority">Priority</label><br>
                 <div class="radio-div">
                 <div class="high">
@@ -39,6 +38,18 @@
             </form>
         </div>
     </div>
+    <div class="note-modal">
+        <div class="mote-content">
+            <div class="note-close">+</div>
+            <h2>Create a note</h2>
+            <form action="">
+                <input type="text" name="note">
+                
+                <button class="noteButton" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    
     <script src="main.js"></script>
 </body>
 </html>
