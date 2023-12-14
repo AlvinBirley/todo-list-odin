@@ -34,6 +34,13 @@ export function initialPageLoad(){
     seperationDiv.appendChild(p);
     contentDiv.appendChild(seperationDiv);
 
+    projectButton.addEventListener("click", projectBtnFnc);
+
+    document.querySelector(".close").addEventListener("click", 
+    
+    function(){
+        document.querySelector(".bg-modal").style.display = 'none';
+    });
 
 
 

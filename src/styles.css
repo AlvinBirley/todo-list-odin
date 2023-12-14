@@ -112,6 +112,7 @@ body {
             display: flex;
             justify-content: center;
             align-items: center;
+            display: none;
         }
 
         .modal-content {
@@ -119,6 +120,7 @@ body {
             height: 400px;
             background-color: white;
             border-radius: 4px;
+            position: relative;
         }
 
         form {
@@ -165,4 +167,13 @@ body {
      
        form, p {
         margin-bottom: -1px;
+       }
+
+       .close {
+        position: absolute;
+        top: 0;
+        right: 14px;
+        font-size: 42px;
+        transform: rotate(45deg);
+        cursor: pointer;
        }
