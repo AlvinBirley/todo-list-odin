@@ -1,5 +1,6 @@
 import {projectBtnFnc} from './project-button.js'
 import {taskBtnFnc} from './task-button.js'
+import {projectClick} from './project-click.js'
 
 
 
@@ -54,8 +55,14 @@ export function initialPageLoad(){
 
     const innerProjectDiv = document.createElement("div");
     innerProjectDiv.classList.add("inner-project-div");
-    //const makeP = document.createElement("p");
-    //innerProjectDiv.appendChild(makeP);
     contentDiv.appendChild(innerProjectDiv);
+
+    const getSubmitButton = document.getElementById("submitButton");
+    getSubmitButton.addEventListener("click", function(event) {
+        event.preventDefault();
+        projectClick(innerProjectDiv); 
+})
 }
+
+
 

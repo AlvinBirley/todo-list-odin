@@ -227,5 +227,41 @@ body {
         width: 1200px;
         height: 100vh;
         margin-left: -100px;
-        background-color: violet;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 20px;
+        border-radius: 5px;
+      }
+
+      .project-rec {
+        height:500px;
+        width: 400px;
+        border-radius: 4px;
+        border: gray solid 5px;
+      }
+
+      .project-info {
+        width: 100%;
+        height: 30%;
+        background-color: #81f209;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .project-title {
+        width: 100%;
+        height: 33.3%;
+        background-color: salmon;
+      }
+
+      .project-description {
+        width: 100%;
+        height: 33.3%;
+        background-color: rgb(21, 110, 211);
+      }
+
+      .date-priority {
+        width: 100%;
+        height: 33.3%;
+        background-color: rgb(148, 12, 245);
       }
