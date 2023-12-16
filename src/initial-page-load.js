@@ -4,6 +4,7 @@ import {projectClick} from './project-click.js'
 
 
 
+
 export function initialPageLoad(){
 
     const contentDiv = document.querySelector('#content');
@@ -62,6 +63,7 @@ export function initialPageLoad(){
         event.preventDefault();
         projectClick(innerProjectDiv); 
 })
+
 }
 
 

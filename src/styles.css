@@ -243,7 +243,6 @@ body {
       .project-info {
         width: 100%;
         height: 30%;
-        background-color: #81f209;
         display: flex;
         flex-direction: column;
       }
@@ -251,17 +250,38 @@ body {
       .project-title {
         width: 100%;
         height: 33.3%;
-        background-color: salmon;
+        border-bottom: gray solid 4px;
       }
 
       .project-description {
         width: 100%;
         height: 33.3%;
-        background-color: rgb(21, 110, 211);
+        border-bottom: gray solid 4px;
       }
 
       .date-priority {
         width: 100%;
         height: 33.3%;
-        background-color: rgb(148, 12, 245);
+        border-bottom: gray solid 4px;
+        display: flex;
+        flex-direction: row;
       }
+
+      .date {
+        width: 50%;
+        height: 100%;
+        border-right: gray solid 4px;
+      }
+
+      .priority {
+        width: 50%;
+        height: 100%;
+      }
+   
+      .close-project {
+       margin-top: -12.5px;
+        margin-left: 380px;
+        font-size: 42px;
+        transform: rotate(45deg);
+        cursor: pointer;
+       }
